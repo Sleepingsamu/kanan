@@ -63,8 +63,8 @@ var filter = [
 ];
 
 // Walkthrough:
-// This was not the easiest feature to figure out but heres loosely the steps
-// I would follow if I needed to reimplement it from scratch.  I may have
+// This was not the easiest feature to figure out but here's loosely the steps
+// I would follow if I needed to re-implement it from scratch.  I may have
 // missed some steps because I didn't write as I reversed.
 //
 // Enter homestead or somewhere that doesn't get a lot of chat messages.
@@ -86,7 +86,7 @@ var filter = [
 // The other one will be where you need to find the next return address of.
 // I used kanan to help find the return address of interest (since its called a
 // lot with things that have nothing to do with chat).
-// Finally, we are at where the chat message is being de constructed before it
+// Finally, we are at where the chat message is being de-constructed before it
 // is placed into a list of strings for the chat box.
 // Find a function that is being passed 7 parameters and thats the one we
 // intercept.
